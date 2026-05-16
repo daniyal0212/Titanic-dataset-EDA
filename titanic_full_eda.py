@@ -101,8 +101,10 @@ dataset.drop('Fare Group', axis=1, inplace=True)
 dataset['Sex'] = dataset['Sex'].map({'male': 0, 'female': 1})
 # calculating correlation matrix and visualizing it using heatmap
 correlation_matrix = dataset.corr()
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.figure(figsize=(12, 10))  
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
 plt.title('Correlation Matrix')
+plt.tight_layout()  # prevents cutoff
 plt.savefig('E:/python/practice/plots/correlation_matrix.png', bbox_inches='tight')
 plt.close()
 
