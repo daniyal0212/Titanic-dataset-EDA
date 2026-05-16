@@ -85,7 +85,7 @@ Most passengers paid fares in the **0–50 range**, and even here survivors are 
 ---
 
 ### 8. Survival by Port of Embarkation
-![Survival by Embarked](survival_by_embarked.png)
+![Survival by Embarked](plots/survival_by_embarked.png)
 
 Southampton (S) had the most passengers and the most deaths. Cherbourg (C) passengers had a relatively **better survival ratio** — likely because more wealthy 1st class passengers boarded there. Queenstown (Q) had the fewest passengers overall.
 
