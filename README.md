@@ -71,21 +71,21 @@ Gender is the **strongest predictor of survival**. Among survivors, females (~23
 ---
 
 ### 6. Survival Count by Passenger Class
-![Survival by Class](plots/survival_by_class.png)
+![Survival by Class](plots/survival_by_passenger_class.png)
 
 **1st class passengers had the highest survival rate**, while 3rd class had the most deaths by a large margin (~372 deaths). This reflects both physical proximity to lifeboats and socioeconomic priority during evacuation.
 
 ---
 
 ### 7. Fare Distribution by Survival
-![Fare Distribution](plots/fare_distribution.png)
+![Fare Distribution](plots/fare_distribution_by_survival.png)
 
 Most passengers paid fares in the **0–50 range**, and even here survivors are proportionally fewer. However, in the **50–100+ brackets**, the survival-to-death ratio improves significantly — higher fare passengers (1st class) had better survival odds.
 
 ---
 
 ### 8. Survival by Port of Embarkation
-![Survival by Embarkation](plots/survival_by_embarkation.png)
+![Survival by Embarkation](survival_by_embarked.png)
 
 Southampton (S) had the most passengers and the most deaths. Cherbourg (C) passengers had a relatively **better survival ratio** — likely because more wealthy 1st class passengers boarded there. Queenstown (Q) had the fewest passengers overall.
 
